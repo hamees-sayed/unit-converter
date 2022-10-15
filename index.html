@@ -7,30 +7,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Unit Converter</title>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <h1>Metric/Imperial Unit Conversion</h1>
-            <input type="text" id="input-el">
+            <input id="input-el">
             <button id="button-el">Convert</button>
+            <button id="reset-el">Reset</button>
         </div>
         <div class="footer">
             <div class="tabOne">
                 <h2>Length (Meter/Feet)</h2>
-                <p></p>
+                <p id="feet&Meter"></p>
             </div>
             <div class="tabTwo">
                 <h2>Volume (Liters/Gallons)</h2>
-                <p></p>
+                <p id="liter&Gallon"></p>
             </div>
             <div class="tabThree">
                 <h2>Mass (Kilograms/Pounds)</h2>
-                <p></p>
+                <p id="kilo&Pound"></p>
             </div>
         </div>
     </div>
+    <script src="script/index.js"></script>
 </body>
 </html>

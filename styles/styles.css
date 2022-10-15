@@ -48,16 +48,37 @@ button {
     margin-top: 25px;
 }
 
+button:hover {
+    background-color: #273549;
+    color: #fff;
+    border: 2px solid #CCC1FF;
+    transition: background-color 0.19s ease;
+}
+
+#reset-el {
+    position: absolute;
+    margin-left: 475px;
+    margin-bottom: 265px; 
+    width: 60px;
+    height: 25px;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
 input {
     border: 2px solid #B295FF;
     width: 117px;
     height: 83px;
     background-color: #6943FF;
     border-radius: 5px;
-    text-align: center;
     color: white;
     font-size: 58px;
     font-weight: 800;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
@@ -75,6 +96,7 @@ h2 {
     margin: 0;
     font-size: 20px;
     font-weight: 600;
+    margin-bottom: 9px;
 }
 
 p {
